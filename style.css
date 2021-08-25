@@ -1,0 +1,88 @@
+:root {
+  --black: #000000;
+  --background: #fafafa;
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Poppins";
+  font-size: 18px;
+  color: var(--black);
+  background-color: var(--background);
+}
+
+main {
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 215px;
+  padding: 110px 263px 48px 243px;
+}
+
+.title {
+  font-family: "PT Serif";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.info-about {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.about-excerpt {
+  font-weight: 400px;
+  margin: 0px;
+}
+
+.crew {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 24px;
+  row-gap: 77px;
+  padding: 0px 240px;
+  justify-content: center;
+}
+
+.crew-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  max-width: 100%;
+  width: auto;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.position {
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+  font-family: "PT Serif";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.crew1 {
+  padding-right: 20.36px;
+}
